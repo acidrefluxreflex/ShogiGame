@@ -1,0 +1,8 @@
+{
+  "initialBoard": {
+    "pieces": [
+      { "type": "king", "position": { "x": 5, "y": 9 }, "owner": "player1" },
+      { "type": "king", "position": { "x": 5, "y": 1 }, "owner": "player2" }
+    ]
+  }
+}
