@@ -8,5 +8,6 @@
 import Foundation
 
 struct Piece {
-    // TODO: 駒の種類と位置
+    // TODO: 将棋の駒の種類と位置
+
 }

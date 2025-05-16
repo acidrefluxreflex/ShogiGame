@@ -1,0 +1,45 @@
+# デフォルトの行末変換設定
+* text=auto
+
+# ソースコードの行末変換設定
+*.swift text
+*.h text
+*.m text
+*.mm text
+*.c text
+*.cpp text
+*.json text
+*.plist text
+*.strings text
+*.storyboard text
+*.xib text
+*.pbxproj text
+
+# バイナリファイルの設定（変換しない）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.wav binary
+*.ttf binary
+*.otf binary
+*.pdf binary
+
+# Xcode特有のファイル
+*.xcworkspace text -merge=union
+*.xcscheme text
+*.xcodeproj/* text -merge=union
+
+# Swift Package Managerファイル
+Package.swift text
+
+# リソースファイル
+*.bundle/* binary
+
+# スクリプト
+*.sh text eol=lf
+*.bash text eol=lf
